@@ -1,0 +1,21 @@
+.contactform__contacto{
+    padding: 1rem;
+    color: var(--color-letras);
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .contactform__contacto{
+        display: flex;
+        flex-wrap: menu;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1440px) {
+    .contactform__contacto{
+        max-width: 1400px;
+        margin: auto;
+    }
+}

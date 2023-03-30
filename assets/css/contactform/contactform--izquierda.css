@@ -1,0 +1,26 @@
+.contactform-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contactform__img {
+    flex: 1;
+    margin-right: none;
+  }
+  
+  .contactform__form {
+    flex: 1;
+  }
+  
+  .contactform__form label, .contactform__form input, .contactform__form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .contactform__form button {
+    display: block;
+    margin-top: 1rem;
+  }

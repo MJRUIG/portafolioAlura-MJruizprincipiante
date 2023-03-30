@@ -1,0 +1,267 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #E5E5E5;
+   --color-fondo2: #EAF2FD;
+   --cor-de-link: #000;
+   --color-letras: #464646;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+.btn__gotop{
+    width: 2.5rem;
+    font-size: 1.5rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem; 
+    z-index: 2;
+    color: var(--color-letras);
+    transition: all 500ms;
+}
+
+.btn__gotop:hover{
+    transform: scale(1.1);
+}
+
+section.menu{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background: var(--cor-de-fundo);
+}
+
+/*Sección Title*/
+
+section.title{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+/*Sección About*/
+
+section.about{
+    padding: 1rem;
+    background: var(--color-fondo2)
+}
+
+/*Sección Skills*/
+
+section.skills{
+    padding: 1rem;
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    padding: 1rem;   
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+    background: var(--color-fondo2);
+    padding: 1rem;
+}
+
+/* experiencia*/
+
+section.experience{
+    padding: 1rem;
+}
+
+/*Contacto*/
+
+section.formcontato{
+    padding: 1rem;
+    background: var(--color-fondo2);
+}
+
+/*footeer*/
+
+section.footer{
+
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+@media (min-width: 768px) {
+    section.menu{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección Title*/
+    
+    section.title{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección About*/
+    
+    section.about{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección Skills*/
+    
+    section.skills{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección Hobbies*/
+    
+    section.hobbies{
+        padding: 1rem 3rem;
+    }
+    
+    /* Experiencia Académica*/
+    
+    section.academic{
+        padding: 1rem 3rem;
+    }
+    
+    /* experiencia*/
+    
+    section.experience{
+        padding: 1rem 3rem;
+    }
+    
+    /*Contacto*/
+    
+    section.formcontato{
+        padding: 1rem 3rem;
+    }
+    
+    /*footeer*/
+    
+    section.footer{
+    
+    }   
+}
+
+/*Tablet*/
+@media (min-width: 1440px) {
+    section.menu{
+        padding: 2rem 7rem;
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    /*Sección Title*/
+    
+    section.title{
+        padding: 2rem 7rem;
+    }
+    
+    /*Sección About*/
+    
+    section.about{
+        padding: 2rem 7rem;
+    }
+    
+    /*Sección Skills*/
+    
+    section.skills{
+        padding: 2rem 7rem;
+    }
+    
+    /*Sección Hobbies*/
+    
+    section.hobbies{
+        padding: 2rem 7rem;  
+    }
+    
+    /* Experiencia Académica*/
+    
+    section.academic{
+        padding: 2rem 7rem;
+    }
+    
+    /* experiencia*/
+    
+    section.experience{
+        padding: 2rem 7rem;
+    }
+    
+    /*Contacto*/
+    
+    section.formcontato{
+        padding: 2rem 7rem;
+    }
+    
+    /*footeer*/
+    
+    section.footer{
+    
+    }   
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}

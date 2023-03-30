@@ -1,0 +1,10 @@
+.footer__rodapie{
+    text-align: center;
+    color: var(--color-letras);
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.footer__rodapie p{
+    margin: 0;
+}
